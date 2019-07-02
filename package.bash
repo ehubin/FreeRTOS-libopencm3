@@ -2,10 +2,10 @@
 
 find='C:\Program Files\Git\usr\bin\find.exe'
 
-TARGET_DIR="test" 
+TARGET_DIR="generatedLib" 
 mkdir $TARGET_DIR
 
-PREFIX="FreeRTOSv10.2.1"
+PREFIX="$1"
 HEAP_FILE=heap_2.c
 DIRLIST="
 .

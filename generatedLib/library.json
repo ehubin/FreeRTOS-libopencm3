@@ -9,7 +9,7 @@
     },
     "version" : "10.2.0",
     "export":{
-        "include":"FreeRTOS/Source"
+        "include":"generatedLib/"
     },
     "build": {
         "srcDir": "FreeRTOS/Source",
