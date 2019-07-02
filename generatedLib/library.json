@@ -1,0 +1,37 @@
+{
+    "authors": {
+        "name": "EHU"
+    },
+    "repository":
+    {
+    "type": "git",
+    "url": "https://github.com/ehubin/FreeRTOS-libopencm3"
+    },
+    "version" : "10.2.0",
+    "export":{
+        "include":"FreeRTOS/Source"
+    },
+    "build": {
+        "srcDir": "FreeRTOS/Source",
+        "flags": [
+            "-IFreeRTOS/Source/portable",
+            "-IFreeRTOS/Source/portable/GCC/ARM_CM3",
+            "-IFreeRTOS/Source/portable/MemMang",
+            "-IFreeRTOS/Source/include"
+            ]
+    },
+    "description": "This is a packaged version of FreeRTOS to work with libopencm3 on stm32 cortex M3 MCUs",
+    "examples": [
+        
+    ],
+    "frameworks": "libOpenCM3",
+    "keywords": [
+        "FreeRTOS",
+        "rtos",
+        "libOpenCM3",
+        "bluepill",
+        "stm32"
+    ],
+    "name": "FreeRTOS-libopencm3",
+    "platforms": "ST STM32"
+}
